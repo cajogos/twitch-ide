@@ -22,7 +22,6 @@ export default class App
 
     handleTwitchChatOnMessage(message)
     {
-        console.log(message);
         if (_.startsWith(message.message, '!ide'))
         {
             this._editor.handleIDECommand(message.displayName, message.message);
