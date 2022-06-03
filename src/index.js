@@ -1,7 +1,8 @@
 import $ from 'jquery';
 import _ from 'lodash';
+import App from './classes/App';
 
 $(document).ready(() =>
 {
-    console.log('hello!');
+    const TwitchIDE = new App($('#app'));
 });
