@@ -4,7 +4,7 @@ import _ from 'lodash';
 export default class Editor
 {
     static bannedSelectors = [
-        'script', 'body'
+        'script', 'body', 'html'
     ];
 
     constructor(app)
